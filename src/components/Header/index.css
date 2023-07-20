@@ -1,0 +1,102 @@
+/* Write your CSS code here */
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar-container {
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+}
+@media screen and (min-width: 768px) {
+  .nav-bar-container {
+    padding: 40px 135px 40px 135px;
+  }
+}
+.nav-bar-mobile-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-container {
+    display: none;
+  }
+}
+.website-logo {
+  width: 90px;
+  height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    height: 80px;
+    width: 180px;
+  }
+}
+.nav-mobile-btn {
+  background-color: transparent;
+  border: none;
+}
+.nav-bar-image {
+  height: 30px;
+  width: 30px;
+}
+.mobile-nav-menu {
+  width: 100%;
+  padding: 5px 30px 5px 30px;
+  background-color: #e6f6ff;
+}
+@media screen and (min-width: 767px) {
+  .mobile-nav-menu {
+    display: none;
+  }
+}
+.mobile-nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.nav-bar-desktop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .nav-bar-desktop-container {
+    display: none;
+  }
+}
+.nav-bar-desktop-container-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-menu-items-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+.nav-menu-item {
+  margin-right: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.logout-desktop-btn {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+}
